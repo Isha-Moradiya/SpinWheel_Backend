@@ -35,3 +35,7 @@ pnpm-debug.log*
 # misc
 *.log
 /uploads
+
+public/
+dist/
+build/

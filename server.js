@@ -22,6 +22,13 @@ const corsOptions = {
     credentials: true,
 };
 
+app.use(express.static(path.join(__dirname, 'public')));
+
+// For all other routes, serve frontend
+app.get(/.*/, (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
 // Middlewares
 app.use(cors(corsOptions));
 app.use(express.json());
