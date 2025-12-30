@@ -164,12 +164,3 @@ Authorization: Bearer <JWT_TOKEN>
 
 Feel free to open issues or PRs. Add a license file if you want to make the project public.
 
-----
-
-If you'd like, I can also:
-
-- Commit this README to the current branch
-- Add a Postman collection
-- Add example `.env.example`
-
-Tell me which of those you'd like next.
